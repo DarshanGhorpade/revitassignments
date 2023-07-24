@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<RevitAddIns>
+
+  <AddIn Type="Application">
+
+       <Name>Major Elements</Name>
+
+       <FullClassName>assignment2.Application</FullClassName>
+
+       <Text>Major Elements</Text> 
+
+       <Description>Get Major Elements In Model</Description>
+
+       <VisibilityMode>AlwaysVisible</VisibilityMode>
+
+       <Assembly>D:\Revit Addins\assignments\revitAssignments\assignment2\bin\Debug\assignment2.dll</Assembly>
+
+       <AddInId>5D0C0F7A-CAA8-428B-8D66-95E03F9C38F8</AddInId>
+
+    <VendorId>Darshan Ghorpade</VendorId>
+
+    <VendorDescription>Email: mr.darshanghorpade@gmail.com</VendorDescription>
+
+  </AddIn>
+
+</RevitAddIns>

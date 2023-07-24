@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<RevitAddIns>
+
+  <AddIn Type="Application">
+
+       <Name>Draw Wall</Name>
+
+       <FullClassName>assignment1.Application</FullClassName>
+
+       <Text>Draw Wall</Text> 
+
+       <Description>Draw close polygon wall</Description>
+
+       <VisibilityMode>AlwaysVisible</VisibilityMode>
+
+       <Assembly>D:\Revit Addins\assignments\revitAssignments\assignment1\bin\Debug\assignment1.dll</Assembly>
+
+       <AddInId>797483CD-8067-47D4-A808-28BF5DB14213</AddInId>
+
+    <VendorId>Darshan Ghorpade</VendorId>
+
+    <VendorDescription>Email: mr.darshanghorpade@gmail.com</VendorDescription>
+
+  </AddIn>
+
+</RevitAddIns>
