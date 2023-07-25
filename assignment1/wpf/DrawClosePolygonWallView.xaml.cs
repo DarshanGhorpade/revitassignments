@@ -36,6 +36,7 @@ namespace assignment1.wpf
             if (wallTypeComboBox.SelectedItem == null) return;
             string selectedWallType = wallTypeComboBox.SelectedItem.ToString();
             DrawClosePolygonWall.DrawPentagon(commandDataGlobal, selectedWallType);
+            Close();
         }
     }
 }

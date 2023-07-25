@@ -26,7 +26,7 @@ namespace assignment1
 
             pushButton.LargeImage =
                 new BitmapImage(new Uri(Path.Combine(Path.GetDirectoryName(thisAssemblyPath) ?? string.Empty,
-                    "Resources", "DrawClosedPolygonwall.ico")));
+                    "Resources", "pentagon_icon.png")));
 
             return Result.Succeeded;
         }

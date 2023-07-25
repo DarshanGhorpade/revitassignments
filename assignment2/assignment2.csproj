@@ -59,13 +59,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>GetMajorElementsResource.resx</DependentUpon>
     </Compile>
-    <Compile Include="Models\Model1.cs" />
+    <Compile Include="ViewModels\RelayCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utils\QuantitiesExtractor.cs" />
-    <Compile Include="ViewModels\ViewModel1.cs" />
-    <Compile Include="Views\QuantitiesWindow.xaml.cs">
-      <DependentUpon>QuantitiesWindow.xaml</DependentUpon>
+    <Compile Include="ViewModels\wpfWindowViewModel.cs" />
+    <Compile Include="Views\MyWpfWindow.xaml.cs">
+      <DependentUpon>MyWpfWindow.xaml</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Views\MyWpfWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="revitAssignment2.addin" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="GetMajorElementsResource.resx">
@@ -74,16 +82,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Views\QuantitiesWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\GetMajorElementsIcon.ico">
+    <EmbeddedResource Include="Resources\count_icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <None Include="revitAssignment2.addin" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

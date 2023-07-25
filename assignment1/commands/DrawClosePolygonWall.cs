@@ -75,6 +75,10 @@ namespace assignment1.commands
                     MessageBox.Show(ex.Message);
                 }
             }
+            else
+            {
+                MessageBox.Show($"Error, no wall type named {wallTypeNameToApply} exists.");
+            }
         }
     }
 }

@@ -26,7 +26,7 @@ namespace assignment2
 
             pushButton.LargeImage =
                 new BitmapImage(new Uri(Path.Combine(Path.GetDirectoryName(thisAssemblyPath) ?? string.Empty,
-                    "Resources", "GetMajorElementsIcon.ico")));
+                    "Resources", "count_icon.png")));
 
             return Result.Succeeded;
         }
